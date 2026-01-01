@@ -1,12 +1,8 @@
 # Python program for the Number Guessing Game
 
-
 import random
-
-#Program to let the user guess a random number within a range
-print("Welcome to the Number Guessing Game!")
-
-secret_number = random.randint(1, 10)  #Generate a random number between 1 and 100
+print("Welcome to the Number Guessing Game!")           #Program to let the user guess a random number within range
+secret_number = random.randint(1, 10)                    #Generate a random number between 1 and 100
 attempts = 0  # To count the number of attempts
 
 while True:
