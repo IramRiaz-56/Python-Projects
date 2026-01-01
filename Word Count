@@ -1,0 +1,10 @@
+#Python Program
+#Word and character counter
+
+text = input("Enter a sentence: ")
+
+words = text.split()
+characters = len(text)
+
+print("Word count:", len(words))
+print("Character count:", characters)
