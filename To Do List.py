@@ -11,7 +11,6 @@ while True:
     print("4. Exit")
 
     choice = input("Enter your choice (1-4): ")
-
     if choice == '1':
         task = input("Enter the task to add: ")
         tasks.append(task)  # Add task to list
