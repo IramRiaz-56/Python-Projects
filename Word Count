@@ -3,8 +3,8 @@
 
 text = input("Enter a sentence: ")
 
-words = text.split()
-characters = len(text)
+words = text.split()          # Counting  the words in input String
+characters = len(text)       # Counting  the Characters
 
 print("Word count:", len(words))
-print("Character count:", characters)
+print("Character count:", characters)   
